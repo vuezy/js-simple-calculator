@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(220, 189, 194);
+  margin: 5% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside {
+  width: 3%;
+  height: 443.733px;
+  background-color: darkorange;
+  border: 3px solid black;
+  border-radius: 4px;
+  text-align: center;
+}
+
+aside:hover {
+  background-color: rgb(201, 117, 15);
+}
+
+aside i {
+  padding: 13rem 0;
+  font-size: 1.4rem;
+}
+
+.fa-clock-rotate-left {
+  display: block;
+}
+
+.fa-calculator {
+  display: none;
+}
+
+main {
+  width: 40%;
+  height: 28rem;
+  border: 3px solid black;
+  border-radius: 4px;
+  background-color: lightgray;
+}
+
+.calculator-screen {
+  background-color: #252525;
+  width: 98%;
+  height: 10vw;
+  line-height: 10vw;
+  margin: 0.5rem auto;
+}
+
+.calculator-screen h1 {
+  font-size: 2.5rem;
+  color: white;
+  letter-spacing: 0.3rem;
+  text-align: right;
+  margin: 0;
+}
+
+.calculator-screen i {
+  color: rgba(255, 255, 0, 0.61);
+}
+
+.calculator-buttons {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.row {
+  width: 98%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  font-size: 2rem;
+  margin: 0.2rem 0;
+  border: 3px solid black;
+  background-color: gray;
+}
+
+button:hover {
+  background-color: darkgray;
+}
+
+.all-clear {
+  width: 50.8%;
+}
+
+.backspace {
+  width: 25%;
+}
+
+.operator {
+  width: 20%;
+  background-color: orange;
+}
+
+.operator:hover {
+  background-color: darkorange;
+}
+
+.number {
+  width: 25%;
+}
+
+.percent, .dot {
+  width: 25%;
+}
+
+.equal {
+  width: 20%;
+  background-color: darkorange;
+}
+
+.equal:hover {
+  background-color: rgb(201, 117, 15);
+}
+
+.history-screen {
+  display: none;
+  background-color: #252525;
+  width: 95%;
+  height: 95%;
+  margin: 0.7rem auto;
+  overflow: scroll;
+}
+
+.history-row {
+  margin: 1rem;
+  border-bottom: 2px solid darkgray;
+  color: white;
+  text-align: right;
+  letter-spacing: 0.3rem;
+}
+
+.history-screen h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.history-screen h1 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.history-screen i, .history-screen span {
+  color: rgba(255, 255, 0, 0.61);
+}
