@@ -187,7 +187,7 @@ function checkClickedButton(buttonClass) {
   }
 
   else if (buttonClass === 'equal') {
-    if (prevButtonClass[lastIndex] === 'number') {
+    if (prevButtonClass[lastIndex] === 'number' || prevButtonClass[lastIndex] === 'percent') {
       const result = solveOperations();
       currentOperationLength = result.length;
       calculatorScreen.innerHTML = result;
