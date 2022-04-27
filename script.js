@@ -79,6 +79,9 @@ function alterFontSize() {
   else if (currentOperationLength >= 8 && currentOperationLength < 13) {
     calculatorScreen.style.fontSize = (2.2 - 0.1 * (currentOperationLength - 8)) + 'rem';
   }
+  else {
+    calculatorScreen.style.fontSize = '1.8rem';
+  }
 }
 
 function findDecSeparator(lastIndex) {
