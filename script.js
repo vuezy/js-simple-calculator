@@ -90,6 +90,7 @@ function findDecSeparator(lastIndex) {
       return true;
     }
   }
+  return false;
 }
 
 function calculate(operationString) {
@@ -225,6 +226,7 @@ function checkClickedButton(buttonClass) {
     }
     else if (buttonClass === 'number' && prevButtonClass[lastIndex] === 'equal') {
       prevButtonClass = [];
+      haveDecSeparator = false;
     }
     return true;
   }
